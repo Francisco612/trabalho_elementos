@@ -3,8 +3,8 @@ import pandas as pd
 #ab corresponde à taxa de retenção e desistência no ensino secundário
 #ds corresponde aos desemprego registado nos centros de emprego (para menores de 25 anos)
 
-ab = pd.read_csv("386(new).csv", encoding="ISO-8859-1", sep=",")
-ds = pd.read_csv("439(new).csv", encoding="ISO-8859-1", sep=",")
+ab = pd.read_csv("386.csv", encoding="ISO-8859-1", sep=",")
+ds = pd.read_csv("439.csv", encoding="ISO-8859-1", sep=",")
 
 #Merge das Regioôes com os municípios
 ab["Território"] = ab["02. Nome RegiÃ£o (Portugal)"].astype(str) + "_" + ab["03. Ãmbito GeogrÃ¡fico"].astype(str)
