@@ -37,7 +37,7 @@ df_merged = df_merged.drop(columns=["06. Filtro 3_x", "07. Escala_x","08. Símbo
 df_merged = df_merged.rename(columns={"09. Valor_y": "Desemprego registado nos centros de emprego (para menores de 25 anos)"})
 
 #ordenar as colunas
-df_merged = df_merged[["Ano", "Território", "Modalidade de ensino", "Taxa de retenção e desistência no ensino secunário, em todos os anos de escolaridade", "Desemprego registado nos centros de emprego(para menores de 25 anos)"]]
+df_merged = df_merged[["Ano", "Território", "Modalidade de ensino", "Taxa de retenção e desistência no ensino secundário, em todos os anos de escolaridade", "Desemprego registado nos centros de emprego(para menores de 25 anos)"]]
 
 # Mostra resultado
 #print(df_merged.head())
