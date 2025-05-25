@@ -31,7 +31,7 @@ fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(12, 8))
 # Boxplot da taxa de retenção e desistência
 sns.boxplot(
     data=df,
-    x='Taxa de retenção e desistência no ensino secundário, em todos os anos de escolaridade',
+    x='Taxa de retenção e desistência no ensino secunário, em todos os anos de escolaridade',
     ax=axes[0],
     color='skyblue'
 )
