@@ -48,3 +48,4 @@ axes[1].set_title('Boxplot - Desemprego registado (jovens < 25 anos)')
 
 plt.tight_layout()
 plt.show()
+
