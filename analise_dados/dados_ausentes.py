@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("data_final.csv", encoding="utf-8", sep=";")
+df = pd.read_csv("../data_final.csv", encoding="utf-8", sep=";")
 
 # Verifica se existem dados ausentes
 # print(df[df.isnull().any(axis=1)])
