@@ -21,7 +21,7 @@ def remover_outliers(df, metodo='iqr', threshold=3):
 
 
 # 1. Carregar o arquivo CSV
-df_original = pd.read_csv('data_final.csv', sep=';')
+df_original = pd.read_csv('resultados_csv/data_final_sem_va.csv', sep=';')
 
 # 2. Mostrar informações básicas antes da remoção
 print("Shape original:", df_original.shape)
@@ -35,4 +35,4 @@ print("\nShape após remoção de outliers:", df_sem_outliers.shape)
 print("\nResumo após remoção:\n", df_sem_outliers.describe())
 
 # 5. (Opcional) Salvar o novo DataFrame em um CSV
-df_sem_outliers.to_csv('data_final_limpo.csv', index=False)
+df_sem_outliers.to_csv('resultados_csv/data_final_limpo.csv', index=False)

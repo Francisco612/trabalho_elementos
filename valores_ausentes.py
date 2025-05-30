@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('data_final.csv', sep=';')
+df = pd.read_csv('resultados_csv/data_final.csv', sep=';')
 
 print("Shape original:", df.shape)
 

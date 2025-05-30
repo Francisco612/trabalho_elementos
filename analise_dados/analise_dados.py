@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("../data_final.csv", encoding="utf-8", sep=";")
+df = pd.read_csv("../resultados_csv/data_final.csv", encoding="utf-8", sep=";")
 
 print(df.columns)
 
