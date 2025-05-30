@@ -4,13 +4,6 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("../data_final.csv", encoding="utf-8", sep=";")
 
-# Verifica se existem dados ausentes
-# print(df[df.isnull().any(axis=1)])
-#print(df.isnull().sum())
-# Mostrar apenas colunas com os dados ausentes
-'''missing = df.isnull().sum()
-print(missing[missing > 0])'''
-
 
 # Mostrar contagem e percentagem de valores ausentes por coluna
 missing_data = df.isnull().sum().to_frame(name='Valores Ausentes')
