@@ -45,5 +45,5 @@ df_merged = df_merged[["Ano", "Território", "Modalidade de ensino", "Taxa de re
 
 print(df_merged.columns)
 
-# Guarda o resultado se quiseres
+# Guarda o resultado
 df_merged.to_csv("data_final.csv", index=False, sep=";", encoding='utf-8-sig')
