@@ -122,4 +122,6 @@ pip install -r requirements.txt
 ___
 ### Conclusão
 
+Com base na análise descritiva, conseguimos identificar padrões relevantes entre os municípios portugueses no que se refere ao desemprego jovem e à desistência escolar. A segmentação em três grupos distintos evidencia que fatores como a oferta educativa (profissional vs. geral) e as políticas locais podem ter um impacto significativo nos resultados obtidos por cada município.
+Assim, esta análise oferece informações importantes para decisões educacionais e sociais mais orientadas, reforçando a utilidade de abordagens baseadas em dados para o planeamento territoral e a promoção da inclusão juvenil.
 
