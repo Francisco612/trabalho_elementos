@@ -59,6 +59,9 @@ sns.scatterplot(
     s=60
 )
 
+# Definir deslocamentos para os textos (x, y)
+offsets = [(0.1, 0.1), (-0.3, 0.2), (0.2, -0.3), (-0.2, -0.2)]
+
 # Destacar extremos com deslocamentos variados
 for i, (_, row) in enumerate(extremos.iterrows()):
     dx, dy = offsets[i % len(offsets)]
@@ -70,7 +73,7 @@ for i, (_, row) in enumerate(extremos.iterrows()):
     )
     plt.text(row["PC1"] + dx, row["PC2"] + dy, label, fontsize=8, fontweight='bold')
 
-plt.title("Distribuição PCA dos Municípios")
+plt.title("Distribuição dos Municípios")
 plt.xlabel("Componente Principal 1 (PC1)")
 plt.ylabel("Componente Principal 2 (PC2)")
 plt.legend(title="Grupos (KMeans)")
