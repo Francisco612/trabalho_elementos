@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# Função para remover outliers
+# Função para calcular outliers
 def calculo_outliers(df, metodo='iqr', threshold=3):
     df_numeric = df.select_dtypes(include=[np.number])
 
@@ -18,7 +18,7 @@ def calculo_outliers(df, metodo='iqr', threshold=3):
 
     return df[mask]
 
-
+# Função para remover outliers
 def remover_outliers():
     df_original = pd.read_csv('resultados_csv/data_final_sem_va.csv')
 
